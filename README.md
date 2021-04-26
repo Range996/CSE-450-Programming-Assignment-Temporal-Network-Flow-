@@ -12,6 +12,7 @@ As you see above, the LAX depart airport is stored as <LAX00, <0,[0,0]>>, and JF
 	After we build the prototype of the graph, then we should link the same airport's nodes with an ascending order, and the capacity of it is infinite, but considering the real-world situation, the biggest plane can’t take 9999 people, so I set 9999 as the infinite number and insert as the capacity.
 The graph will look like below:
  ![images](images/arrayGraph.png)
+ 
 And below is the nodes of airports and it position in the list:
  ![images](images/Airports.png)
 
