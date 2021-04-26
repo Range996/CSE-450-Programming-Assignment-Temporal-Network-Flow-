@@ -2,7 +2,7 @@
 
 This is assignment is easier compared to what I thought, the first method I used was trying to use greedy algorithm mindset, sliced the problem to 24 sub-problem, used each time zone to calculate the flight depart and arrive, however, this cloud lead to another problem, some people will be left in some other airports excludes New York airport.
 Then, I read the instruction again, and I tried to solve this problem from the perspective of professor, which means the FordFulkson Algorithm needs to be used in this assignment. And then I considered why I should only use one node for each airport.
-	 
+![image]/images/scratch nodes.jpg
 As the image shows above, I will state the step I achieve this assignment step by step. The LAX and JFK mean the Airport abbreviation, and the number after it means the departure or arrival time.
 Before we go through the process, the final result is 6751.
 Step 1: data grabbing. Read the whole data from txt file, and insert into an object defined as  . 
